@@ -1,0 +1,160 @@
+/*
+font-family: 'Open Sans', sans-serif;
+*/
+
+body{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 16px;
+    line-height: 20px;
+    
+}
+
+header{
+    background-color: bisque;
+    padding: 16px 0;
+    position: relative;
+}
+nav{
+    background-color: rgb(255, 241, 223);
+    margin-bottom: 20px;
+}
+nav ul{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+nav ul li{
+    flex-grow: 1;
+}
+nav ul li a{
+    color: black;
+    text-decoration: none;
+    padding: 3px 6px;
+    display: block;
+    text-align: center;
+}
+nav ul li a:hover {
+    background-color: rgb(252, 195, 125);
+}
+footer{
+    background-color: rgb(194, 189, 189);
+    clear: both;
+    color: black;
+    text-align: center;
+    padding: 5px 0;
+    margin-top: 20px;
+}
+nav ul li a.activo{
+    background-color: rgb(252, 195, 125);
+}
+.holder{
+    max-width: 960px;
+    margin: 0 auto;
+}
+
+.bienvenidos{
+    width: 100%;
+    padding-right: 10px;
+    box-sizing: border-box;
+ 
+}
+.bienvenidos p{
+    font-size: 20px;
+}
+/*fin home*/
+/*inicio nosotros*/
+.historia p{
+    font-size: 12px;
+}
+.personas{
+    display: flex;
+    justify-content: space-between;
+   
+}
+.persona{
+    border: 1px solid bisque;
+    border-radius: 5px;
+    width: 18%;
+    text-align: center;
+    padding: 13px;
+    box-sizing: border-box;
+    background-color: beige;
+    image-rendering: auto;
+    overflow: hidden;
+
+}
+.persona img{
+    width: 100%;
+    height: auto;
+
+}
+.persona h5,
+.persona h6{
+    margin: 0;
+    font-weight: normal;
+    color: black;
+
+}
+.persona h5{
+    font-size: 14px;
+    margin-top: 5px;
+}
+.persona h6{
+    font-size: 11px;
+    font-style: italic;
+}
+.persona p{
+    color: black;
+    font-size: 10px;
+}
+/*fin nosotros*/
+/*inicio menu*/
+
+  
+  .plato {
+    border: 1px solid #ccc;
+    padding: 20px;
+    margin-bottom: 20px;
+  }
+  
+  .plato img {
+    width: 100%;
+    max-height: 200px;
+    object-fit: cover;
+    margin-bottom: 10px;
+  }
+  
+  .plato h3 {
+    margin: 0;
+    font-size: 18px;
+  }
+  
+  .plato p {
+    margin: 10px 0;
+  }
+  
+  .plato span {
+    font-weight: bold;
+  }
+  /*inicio galeria*/
+
+  .galeria {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+
+.galeria img {
+    width: 20%;
+    border: 1px solid #ddd;
+    padding: 0.3em;
+    box-sizing: border-box;
+    margin-bottom: 20px;
+    margin-right: 2%;
+}
+
+
+    /*fin galeria*/
+
+    
